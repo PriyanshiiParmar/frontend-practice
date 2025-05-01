@@ -26,7 +26,7 @@ const App = () => {
       const data = JSON.parse(input);
       console.log("clicked");
 
-      const res = await axios.post("http://localhost:7777/bfhl", {
+      const res = await axios.post("https://backend-practice-jikk.onrender.com", {
         data,
         file_b64,
       });
